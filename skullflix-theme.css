@@ -1,0 +1,38 @@
+.adminDrawerLogo img {
+	content: url(https://skulldorom.com/Skullflix.png) !important;
+        height:40px; !important;
+}
+
+.imgLogoIcon {
+	content: url(https://skulldorom.com/Skullflix.png) !important;
+        height:40px; !important;
+}
+
+.pageTitleWithLogo {
+	background-image: url(https://skulldorom.com/Skullflix.png) !important;
+        height:40px; !important;
+}
+
+.backgroundContainer {
+      background: linear-gradient(135deg, rgba(95,17,175,1) 0%, rgba(33,33,33,1) 50%) !important;
+}
+
+[aria-label="Animations"]::after,
+[aria-label="Anime"]::after,
+[aria-label="Collections"]::after,
+[aria-label="Movies"]::after,
+[aria-label="Shows"]::after {
+  content: attr(aria-label); /* Dynamically insert the aria-label text */
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 42px; /* Larger text */
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 5px;
+  white-space: nowrap;
+  text-shadow: 4px 7px 8px rgba(0, 0, 0, 1); /* Drop shadow */
+}
