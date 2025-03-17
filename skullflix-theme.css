@@ -14,7 +14,7 @@
 }
 
 .backgroundContainer {
-      background: linear-gradient(135deg, rgba(95,17,175,1) 0%, rgb(0,0,0) 80%) !important;
+      background: linear-gradient(135deg, rgba(95,17,175,1) 0%, rgb(20,20,20) 80%) !important;
 }
 
 [aria-label="Animations"]::after,
