@@ -20,6 +20,12 @@
         background-size: cover !important;
 }
 
+.playedIndicator {
+  background: #5dd000;
+}
+
+.countIndicator {background: rgba(142, 42, 245,0.7);}
+
 [aria-label="Animations"]::after,
 [aria-label="Anime"]::after,
 [aria-label="Collections"]::after,
