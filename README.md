@@ -1,4 +1,4 @@
-# Instalation
+# Installation
 
 Import to jellyfin:
 
